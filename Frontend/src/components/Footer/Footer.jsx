@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
             <img className='footer-logo' src={assets.logo} alt="logo" />
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, blanditiis eum corporis facilis magni perferendis doloremque quaerat deserunt voluptatum perspiciatis quia incidunt dignissimos asperiores. Perferendis impedit modi quod minus officiis!</p>
+            <p>We bring the best of both Bengali cuisine and a variety of other dishes right to your doorstep. Our passion for authentic flavors and fresh ingredients ensures a delightful dining experience every time.</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="Facebook icon" />
                 <img src={assets.twitter_icon} alt="Twitter icon" />
@@ -28,12 +28,12 @@ const Footer = () => {
           <h2>GET IN TOUCH</h2>
           <ul>
             <li>+910000099999</li>
-            <li>contact@gmail.com</li>
+            <li>paramitakitchen@gmail.com</li>
           </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 @ Tomato.com - All Right Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 © Paramita'sKitchen.com - All Right Reserved.</p>
     </div>
   )
 }
