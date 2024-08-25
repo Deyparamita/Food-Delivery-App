@@ -1,0 +1,121 @@
+{
+    "queries": [
+      {
+        "tag": "greeting",
+        "patterns": ["hi", "hey", "how are you", "is anyone there", "hello", "good day"],
+        "responses": ["Hey :-)", "Hello, thanks for visiting, how can I help you", "Hi there, what can I do for you?", "Hi there, how can I help?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "see you later", "goodbye","tata"],
+        "responses": ["Goodbye!", "Have a great day!", "See you later!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "that's helpful","helpful"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+      },
+      {
+        "tag": "menu",
+        "patterns": [
+          "what's on the menu",
+          "show me the menu",
+          "what food do you have",
+          "menu",
+          "list of items",
+          "What foods are available here",
+          "food",
+          "foods"
+        ],
+        "responses": [
+          "Our menu includes a variety of dishes like Bengali Dish, Bengali Dessert, and salad, Rolls, Dessert, Sandwich, Cake, Pure Veg, Pasta and Noodles. You can browse all these categories on our website.",
+          "We have 8 different categories of foods like Bengali Dish, Bengali Dessert, and salad, Rolls and more! Check out our menu on the website."
+        ]
+      },
+      {
+        "tag": "order",
+        "patterns": [
+          "how can I order",
+          "place an order",
+          "order food",
+          "how do I order",
+          "ordering process",
+          "order"
+        ],
+        "responses": [
+          "You can place an order directly on our website by selecting your favorite items and proceeding to cart and payment.",
+          "Just choose your items from our menu and click on cart to place your order!"
+        ]
+      },
+      {
+        "tag": "payment",
+        "patterns": [
+          "what payment methods",
+          "how can I pay",
+          "payment options",
+          "how do I pay",
+          "payment"
+        ],
+        "responses": [
+          "We accept various payment methods, including credit cards, PayPal, and Stripe.",
+          "You can pay using credit cards, PayPal, and Stripe."
+        ]
+      },
+      {
+        "tag": "details",
+        "patterns": [
+          "bengali dish", "bengali dessert", "salad","rolls","dessert","sandwich","cake","pure veg","pasta","noodles", "kosha mangsho","chingri malai curry","aloo posto","shorshe ilish","luchi aloo dum","ilish bhapa","macher jhol","shukto","mishti doi","rasogolla",
+          "pantua","sitabhog and Mihidana","Jilipi", "Makha Sandesh","sonpapri","rasomalai","greek salad","veg salad","clover salad","chicken salad","lasagna rolls","peri peri rolls","chicken rolls","veg rolls","ripple ice-cream","fruit ice Cream","jar ice cream","vanilla ice cream","chicken sandwich","Vegan sandwich","grilled Sandwich","Bread Sandwich","Cup Cake","Vegan Cake","Butterscotch Cake","Sliced Cake","Garlic Mushroom","Fried Cauliflower","Mix Veg Pula","Rice Zucchini","Cheese Pasta","Tomato Pasta","Creamy Pasta","Chicken Pasta","Butter Noodles","Veg Noodles","Somen Noodles","Cooked Noodles"
+        ],
+        "responses": [
+          "Kindly check the website for all kinds of food-related details",
+          "Kindly check the website dishes"
+        ]
+      },     
+      {
+        "tag": "delivery",
+        "patterns": [
+          "how fast is delivery",
+          "when will my food arrive",
+          "delivery time",
+          "how long for delivery",
+          "delivery"
+        ],
+        "responses": [
+          "We offer home delivery within 30 minutes in most areas. You can track your order in real-time on our website by clicking the orders present in the avatar icon.",
+          "Your order should arrive within 30 minutes. You can track it live on our website by clicking the orders present in the avatar icon."
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "what are your hours",
+          "when are you open",
+          "opening hours",
+          "working hours",
+          "when do you close",
+          "hour",
+          "hours"
+        ],
+        "responses": [
+          "We are open from 8 AM to 12 PM every day.",
+          "Our working hours are from 8 AM to 12 PM daily."
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "how can I contact you",
+          "contact info",
+          "contact",
+          "customer support",
+          "how to reach you"
+        ],
+        "responses": [
+          "You can reach us at paramitakitchen@gmail.com or call us at +910000099999.",
+          "Feel free to contact us via email at paramitakitchen@gmail.com or by phone at +910000099999."
+        ]
+      }
+    ]
+  }
+  

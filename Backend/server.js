@@ -6,6 +6,7 @@ import userRouter from "./routers/userRoute.js";
 import "dotenv/config.js";
 import cartRouter from "./routers/cartRoute.js";
 import orderRouter from "./routers/orderRoute.js";
+import chatbotRoute from "./routers/chatbotRoute.js"
 
 //  app config
 const app = express();
@@ -28,6 +29,7 @@ app.use("/images", express.static("uploads"));
 app.use("/api/user", userRouter);
 app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
+app.use("/api/chatbot",chatbotRoute);
 
 app.listen(port, () => {
   console.log(`Server is running on port http://localhost:${port}`);
