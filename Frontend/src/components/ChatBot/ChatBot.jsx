@@ -13,7 +13,7 @@ const ChatBot = () => {
       setMessages([...messages, userMessage]);
   
       try {
-        const response = await axios.post('http://localhost:4000/api/chatbot', {
+        const response = await axios.post('https://food-delivery-app-backend-8mxw.onrender.com', {
           message: input,
         });
         const botMessage = { sender: 'bot', text: response.data.response };
